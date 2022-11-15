@@ -1,0 +1,30 @@
+{
+  "name": "angelillo15backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelillo15/Angelillo15Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelillo15/Angelillo15Backend/issues"
+  },
+  "homepage": "https://github.com/Angelillo15/Angelillo15Backend#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
